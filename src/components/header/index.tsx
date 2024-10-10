@@ -8,7 +8,7 @@ export function Header () {
         <nav className={styles.nav}>
           <Link href='/'>
             <h1 className={styles.logo}>
-              Tarfas <span>+</span>
+              Tarefas <span>+</span>
             </h1>
           </Link>
         </nav>
