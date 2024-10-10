@@ -11,6 +11,9 @@ export function Header () {
               Tarefas <span>+</span>
             </h1>
           </Link>
+          <Link href='/dashboard'>
+            <span className={styles.link}>Meu painel</span>
+          </Link>
         </nav>
         <button className={styles.loginButton}>Acessar</button>
       </section>
