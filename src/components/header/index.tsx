@@ -1,7 +1,12 @@
+import { useSessioin, signIn, signOut } from "next-auth/react";
+
 import styles from './styles.module.css'
 import Link from 'next/link'
 
 export function Header () {
+
+  const { data: session } = useSessioin();
+
   return (
     <header className={styles.header}>
       <section className={styles.content}>
